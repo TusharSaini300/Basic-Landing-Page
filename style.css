@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#Main-page{
+    height: 100vh;
+    width: 100%;
+    background: url(beans.jpg);
+    background-size: cover;
+    background-position-y:-15rem;
+}
+.logo{
+    font-family: "Mali", cursive;
+    font-weight: 600;
+    font-size: larger;
+    color: #4f382e;
+}
+.navbar{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    height: 3rem;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(1rem);
+    z-index: 3;
+    padding:0 1rem 0 1rem ;
+    
+}
+.nav-icons{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-icons a, .nav-side-icons a{
+    text-decoration: none;
+    color: #4f382e;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+}
+.nav-side-icons{
+    width: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-icons a:hover{
+    text-decoration: 2px underline #4f382e;
+}
+.container-1{
+    position: relative;
+    top: 4rem;
+    left: 13rem;
+    width: 75%;
+    height: 45rem;
+    background-color: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(1rem); 
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 1rem 1rem 1rem 1rem;
+    font-family: "Poppins",sans-serif;
+    font-weight:300 ;
+    
+ } 
+.title{
+    display: flex;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    
+}
+.title2{
+    font-size: 2.5rem;
+    color: #4f382e;
+    margin-top: 0.5rem;
+}
+.desc{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    color: black;
+}
+#Order{
+    background-color: #4f382e;
+    width: 6rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    margin-top: 3rem;
+    font-family: "Poppins",sans-serif;
+}
+.img1{
+    position: absolute;
+    right: 2rem;
+    top: -5rem;
+    
+}
+#icons{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins",sans-serif;
+    background-color: #4f382e;
+}
+
+.service-name{
+    font-weight: bold;
+
+}
+.service-quote{
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+.service-card{
+    width: 17rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 3rem;
+}
+.service-icon{
+    border: 2px solid #fff;
+    background-color: #4f382e;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#products-page{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    background-image: url(beans2.jpg);
+    background-size: cover;
+}
+.slider{
+    display: flex;
+    width: 75%;
+    height: 50vh;
+    background-color: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(1rem); 
+    z-index: 3;
+    margin: auto;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    font-family: "Poppins",sans-serif;
+    height: 20rem;
+    width: 15rem;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    overflow: hidden;
+    cursor: pointer;
+}
+.info{
+    font-family: "Poppins",sans-serif;
+    height: 16rem;
+    width: 15rem;
+    background-color: #4f382e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    position: relative;
+    bottom: -16rem;
+    transition: 0.7s;
+    
+}
+.des{
+    margin-left: 1rem;
+}
+.card:hover .info{
+    bottom: 0rem;
+    
+}
+button{
+    background-color: #fff;
+    width: 6rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 15px;
+    color: #4f382e;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: "Poppins",sans-serif;
+}
+.coffee{
+    margin-top: 2rem;
+    display: flex;
+    color:black;
+    font-size: larger;
+    font-weight:600;
+    margin-left: 3rem;
+}
+
+.line{
+    width: 90%;
+    height: 60%;
+    border-top: 1px solid black;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    opacity: 0.2;
+}
+.footer-sec{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    display: flex;
+    
+}
+.contact,.account,.newsletter{
+    flex: 1;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact h2,.account h2,.newsletter h2{
+    margin-bottom: 1.5rem;
+    border-bottom: 4px solid #4f382e ;
+    width: fit-content;
+}
+.contact p,.account p,.newsletter p{
+    margin-bottom: 0.5rem;
+}
+.contact p,.account p{
+    cursor: pointer;
+}
+.account p:hover{
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+    width: fit-content;
+}
